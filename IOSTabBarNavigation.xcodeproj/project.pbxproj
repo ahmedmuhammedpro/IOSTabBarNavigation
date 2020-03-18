@@ -14,6 +14,8 @@
 		C89144B32421B175005D0378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89144B22421B175005D0378 /* Assets.xcassets */; };
 		C89144B62421B175005D0378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89144B42421B175005D0378 /* LaunchScreen.storyboard */; };
 		C89144B92421B175005D0378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C89144B82421B175005D0378 /* main.m */; };
+		C89144C12421B63C005D0378 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C89144C02421B63C005D0378 /* SecondViewController.m */; };
+		C89144C42421B700005D0378 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C89144C32421B700005D0378 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		C89144B52421B175005D0378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C89144B72421B175005D0378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C89144B82421B175005D0378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C89144BF2421B63C005D0378 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C89144C02421B63C005D0378 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C89144C22421B700005D0378 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C89144C32421B700005D0378 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				C89144B42421B175005D0378 /* LaunchScreen.storyboard */,
 				C89144B72421B175005D0378 /* Info.plist */,
 				C89144B82421B175005D0378 /* main.m */,
+				C89144BF2421B63C005D0378 /* SecondViewController.h */,
+				C89144C02421B63C005D0378 /* SecondViewController.m */,
+				C89144C22421B700005D0378 /* ThirdViewController.h */,
+				C89144C32421B700005D0378 /* ThirdViewController.m */,
 			);
 			path = IOSTabBarNavigation;
 			sourceTree = "<group>";
@@ -146,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89144C12421B63C005D0378 /* SecondViewController.m in Sources */,
 				C89144AE2421B16D005D0378 /* ViewController.m in Sources */,
+				C89144C42421B700005D0378 /* ThirdViewController.m in Sources */,
 				C89144A82421B16D005D0378 /* AppDelegate.m in Sources */,
 				C89144B92421B175005D0378 /* main.m in Sources */,
 				C89144AB2421B16D005D0378 /* SceneDelegate.m in Sources */,
